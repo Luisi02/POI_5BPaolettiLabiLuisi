@@ -89,3 +89,17 @@ body{
     background-color: #224f27;
     cursor: pointer;
 }
+
+.visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  .tabella{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 700px;
+  }
