@@ -34,3 +34,5 @@ function esci() {
 // Inizializza il componente degli argomenti
 const argument = argumentComponent();
 argument.inizializza();
+
+export {argumentComponent};

@@ -17,8 +17,10 @@ const loginComponent = () => {
                 input_password.value = "";
                 input_username.value = "";
             }
+        },
+        verify: () => {
             submit_login.onclick = () => {
-                if (input_password.value === "password" && input_username.value === "username"){
+                if (input_password.value === loginAddress["password"] && input_username.value === loginAddress["username"]){
                     modale_login.style.display = "none"
                     login.innerHTML = input_username.value
                 }
@@ -26,5 +28,8 @@ const loginComponent = () => {
         }
     }
 }
-
+const loginAddress = {
+username : "amico", password : "nemico"
+}
 export {loginComponent};
+export {loginAddress};

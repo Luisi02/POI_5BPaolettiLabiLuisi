@@ -10,7 +10,7 @@ const hide = (elements) => {
     element.classList.remove('hidden');
   };
   
-  export const createNavigator = (parentElement) => {
+  export const insertData = (parentElement) => {
     const pages = Array.from(parentElement.querySelectorAll('.page'));
   
     const render = () => {
