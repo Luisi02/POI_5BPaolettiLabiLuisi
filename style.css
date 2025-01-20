@@ -97,3 +97,9 @@ body{
   .hidden {
     display: none;
   }
+
+  .tabella{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 700px;
+  }
